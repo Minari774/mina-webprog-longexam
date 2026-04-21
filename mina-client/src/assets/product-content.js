@@ -1,0 +1,108 @@
+const products = [
+  {
+    name: 'nike-air-zoom-run',
+    title: 'Nike Air Zoom Run',
+    category: 'Running',
+    price: 'PHP 3,299',
+    stock: 'In stock',
+    image: 'https://www.intersport.es/750114-medium_default/nike-air-zoom-pegasus-40-men-s-iic.nike.dv3853.001.jpg',
+    content: [
+      'A fast, lightweight Nike running shoe engineered for road miles and daily training.',
+      'Zoom Air cushioning delivers responsive energy while the mesh upper keeps breathability high.',
+      'Built for runners who want a sleek shoe with reliable support and smooth transitions.',
+    ],
+  },
+  {
+    name: 'nike-court-vision',
+    title: 'Nike Court Vision',
+    category: 'Sneakers',
+    price: 'PHP 2,799',
+    stock: 'Low stock',
+    image: 'https://www.schrittmacher-shop.com/cdn/shop/files/nike-court-vision-lo-schwarz-turkis-hf0103-001-1.jpg?v=1704981163',
+    content: [
+      'A heritage-inspired sneaker with a clean leather upper and classic Nike styling.',
+      'Comfortable cushioning and a versatile look make it great for everyday wear.',
+      'Perfect for street outfits, casual weekends, and modern vintage style.',
+    ],
+  },
+  {
+    name: 'nike-acg-mountain',
+    title: 'Nike ACG Mountain',
+    category: 'Boots',
+    price: 'PHP 4,199',
+    stock: 'In stock',
+    image: 'https://www.sneakerfiles.com/wp-content/uploads/2023/11/nike-acg-mountain-fly-2-low-doernbecher-1024x730.jpeg',
+    content: [
+      'A rugged outdoor boot from Nike ACG built to handle trails and weather conditions.',
+      'Durable materials and a grippy outsole keep feet stable on rocks, mud, and uneven terrain.',
+      'Designed for adventurers who need performance footwear in every season.',
+    ],
+  },
+  {
+    name: 'nike-flex-slip',
+    title: 'Nike Flex Slip',
+    category: 'Casual',
+    price: 'PHP 1,499',
+    stock: 'In stock',
+    image: 'https://www.sportvision.cz/files/thumbs/files/images/slike_proizvoda/media/DJ6/DJ6038-003/images/thumbs_800/DJ6038-003_1_800_800px.jpg',
+    content: [
+      'A comfortable slip-on from Nike made for quick outings and easy everyday wear.',
+      'Stretchy materials and lightweight construction make it perfect for on-the-go comfort.',
+      'A simple, sporty style that pairs well with jeans, joggers, and leisure looks.',
+    ],
+  },
+  {
+    name: 'nike-court-ace',
+    title: 'Nike Court Ace',
+    category: 'Sport',
+    price: 'PHP 3,099',
+    stock: 'In stock',
+    image: 'https://m.media-amazon.com/images/I/51iRr9ZRG6L._AC_UY900_.jpg',
+    content: [
+      'A sporty court shoe with Nike performance details for gym workouts and active moves.',
+      'Responsive cushioning and durable overlays support fast direction changes.',
+      'Ideal for customers who want a training-ready shoe with everyday versatility.',
+    ],
+  },
+  {
+    name: 'nike-benassi-sandal',
+    title: 'Nike Benassi Sandal',
+    category: 'Sandals',
+    price: 'PHP 899',
+    stock: 'In stock',
+    image: 'https://thumblr.uniid.it/product/130187/d57143ce7354.jpg?width=3840&format=webp&q=75',
+    content: [
+      'A classic Nike slide sandal with soft cushioning and an easy slip-on design.',
+      'Perfect for pool days, post-workout recovery, or casual summer wear.',
+      'Lightweight and simple, it keeps feet comfortable while staying iconic.',
+    ],
+  },
+  {
+    name: 'nike-court-royale',
+    title: 'Nike Court Royale',
+    category: 'Lifestyle',
+    price: 'PHP 2,199',
+    stock: 'Low stock',
+    image: 'https://thumblr.uniid.it/product/213849/fad77853e0e0.jpg?width=3840&format=webp&q=75',
+    content: [
+      'A clean, timeless sneaker built for everyday streetwear and polished casual style.',
+      'The soft leather upper and low profile silhouette create a refined look with Nike heritage.',
+      'Great for customers who want versatile footwear that pairs well with many outfits.',
+    ],
+  },
+  {
+    name: 'nike-react-trainer',
+    title: 'Nike React Trainer',
+    category: 'Training',
+    price: 'PHP 2,699',
+    stock: 'Preorder',
+    image: 'https://productimages.footy.com/667286700e5945ca8895092e/0/3840.webp?q=75',
+    content: [
+      'A dynamic training shoe with Nike React foam for responsive workouts and cross training.',
+      'Supportive structure and traction help with quick moves, lifts, and gym sessions.',
+      'Perfect for shoppers reserving a performance shoe built for active lifestyles.',
+    ],
+  },
+];
+
+export default products;
